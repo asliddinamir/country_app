@@ -56,7 +56,6 @@ const apiFunc = () => {
         })
 }
 const changer = (e) => {
-
     let country = inputValue.value
     country = e.target.value
     apiFunc()
