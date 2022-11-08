@@ -16,6 +16,7 @@
     --title_color: rgb(240, 248, 255);
     --grey_color: #eee;
     --grey_color2: rgb(245, 236, 236);
+    --span_color: yellow;
 }
 
 .light-mode{
@@ -27,6 +28,7 @@
     --title_color: #2e2e2e;
     --grey_color: #eee;
     --grey_color2 : #333;
+    --span_color: green;
 }
 
 body {
@@ -39,7 +41,7 @@ body {
 }
 .container{
     background-color: var(--main_back);
-    min-height: 100vh;
+    min-height: 110vh;
     transition: background .3s;
     
 }
@@ -191,7 +193,7 @@ body {
 }
 .infos p span{
     font-size: 1rem;
-    color: yellow;
+    color: var(--span_color);
 }
 .infos2{
     margin-left: 10%;
@@ -301,7 +303,7 @@ footer {
         flex-direction: column;
     }
     .image img{
-        height: 20vh;
+        height: 30vh;
         width: 300px;
     }
     .introducer{
@@ -316,6 +318,7 @@ footer {
     }
     .introducer{
         font-size: 1rem;
+        height: 25vh;
     }
 }
 
